@@ -1,0 +1,75 @@
+
+
+@import url('http://fonts.cdnfonts.com/css/mv-boli');
+
+
+body {
+ 
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.dec
+{
+  width: 39px;
+}
+.margintop
+{
+  margin-top: 114px;
+}
+.margintopothers
+{
+  margin-top: 150px;
+}
+
+
+
+.pImage
+{
+  margin-left: 92px;
+}
+
+.headerColor
+{
+  background-color: #2ACE87;
+}
+.headingStyle
+{
+  font-family: 'MV Boli', sans-serif;
+                                                
+}
+.logoSize
+{ margin-left: 30px;
+  width: 40px;
+  height: 40px;
+}
+.imageMargin
+{
+  margin-left: 50px;
+}
+.margintopadmin
+{
+  margin-top: 180px;
+}
+
+.paddingForFooter
+{
+  margin-top: -29px;
+}
+.sectionHeight
+{
+  height: 900px;
+}
+.footerMargin
+{
+  margin-top: 200px;
+}
+.margintopaddproduct
+{
+  margin-top: 180px;
+}
+.mar{
+  margin-left: -10px;
+}
