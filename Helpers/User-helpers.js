@@ -6,8 +6,8 @@ var bcrypt= require("bcrypt")
 const Razorpay = require('razorpay');
 
 var instance = new Razorpay({
-  key_id: 'rzp_test_eixIFWkXHBMxdh',
-  key_secret: 'NV0WGo11PM9ylIMhhUELQHjm'
+  key_id: 'rzp_test_PgI8GB7quOoWvr',
+  key_secret: 'tfECIU9H0KlVIwx97i10Lga5'
 });
 
 module.exports={
@@ -251,7 +251,7 @@ module.exports={
     return new Promise((res,rej)=>
     {
         const crypto = require('crypto')
-        let hmac= crypto.createHmac('sha256','NV0WGo11PM9ylIMhhUELQHjm')
+        let hmac= crypto.createHmac('sha256','tfECIU9H0KlVIwx97i10Lga5')
         hmac.update(details['payment[razorpay_order_id]']+'|'+details['payment[razorpay_payment_id]'])
         hmac=hmac.digest('hex')
         if(hmac==details['payment[razorpay_signature]'])
